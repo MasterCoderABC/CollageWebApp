@@ -64,3 +64,13 @@ textarea{
     font-size: 15px;
     padding: 5px;
 }
+
+@media screen and (max-width: 768px){
+    #result1, #result2, #result3{
+        width: 75%;
+        text-align: center;
+    }
+    #result1{
+        margin-bottom: 20px;
+    }
+}
